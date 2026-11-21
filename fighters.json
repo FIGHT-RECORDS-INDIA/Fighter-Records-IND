@@ -1,0 +1,191 @@
+[
+  {
+    "id": "vaibhav-hase",
+    "name": "Vaibhav Hase",
+    "country": "India",
+    "record": {
+      "wins": 5,
+      "losses": 0,
+      "draws": 0
+    },
+    "record_status": "Fighter-supplied; not independently verified",
+    "source_note": "Record supplied by the fighter/profile owner."
+  },
+  {
+    "id": "anshul-jubli",
+    "name": "Anshul Jubli",
+    "country": "India",
+    "record": {
+      "wins": 7,
+      "losses": 2,
+      "draws": 0
+    },
+    "record_status": "Verify before publication",
+    "source_note": "Starter reference data; verify against current event records."
+  },
+  {
+    "id": "puja-tomar",
+    "name": "Puja Tomar",
+    "country": "India",
+    "record": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "record_status": "Record not yet entered"
+  },
+  {
+    "id": "aadil-bashir",
+    "name": "Aadil Bashir",
+    "country": "India",
+    "record": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "record_status": "Record not yet entered"
+  },
+  {
+    "id": "aarti-khatri",
+    "name": "Aarti Khatri",
+    "country": "India",
+    "record": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "record_status": "Record not yet entered"
+  },
+  {
+    "id": "abdul-muneer",
+    "name": "Abdul Muneer",
+    "country": "India",
+    "record": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "record_status": "Record not yet entered"
+  },
+  {
+    "id": "abhijeet-petkar",
+    "name": "Abhijeet Petkar",
+    "country": "India",
+    "record": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "record_status": "Record not yet entered"
+  },
+  {
+    "id": "adnan-maniyar",
+    "name": "Adnan Maniyar",
+    "country": "India",
+    "record": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "record_status": "Record not yet entered"
+  },
+  {
+    "id": "ajay-deep-singh",
+    "name": "Ajay Deep Singh",
+    "country": "India",
+    "record": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "record_status": "Record not yet entered"
+  },
+  {
+    "id": "akshata-khadtare",
+    "name": "Akshata Khadtare",
+    "country": "India",
+    "record": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "record_status": "Record not yet entered"
+  },
+  {
+    "id": "alam-idrisi",
+    "name": "Alam Idrisi",
+    "country": "India",
+    "record": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "record_status": "Record not yet entered"
+  },
+  {
+    "id": "alan-fernandes",
+    "name": "Alan Fernandes",
+    "country": "India",
+    "record": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "record_status": "Record not yet entered"
+  },
+  {
+    "id": "angad-bisht",
+    "name": "Angad Bisht",
+    "country": "India",
+    "record": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "record_status": "Record not yet entered"
+  },
+  {
+    "id": "anup-kumar",
+    "name": "Anup Kumar",
+    "country": "India",
+    "record": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "record_status": "Record not yet entered"
+  },
+  {
+    "id": "asha-roka",
+    "name": "Asha Roka",
+    "country": "India",
+    "record": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "record_status": "Record not yet entered"
+  },
+  {
+    "id": "ashok-bagade",
+    "name": "Ashok Bagade",
+    "country": "India",
+    "record": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "record_status": "Record not yet entered"
+  },
+  {
+    "id": "amitesh-chaubey",
+    "name": "Amitesh Chaubey",
+    "country": "India",
+    "record": {
+      "wins": 0,
+      "losses": 0,
+      "draws": 0
+    },
+    "record_status": "Record not yet entered"
+  }
+]
