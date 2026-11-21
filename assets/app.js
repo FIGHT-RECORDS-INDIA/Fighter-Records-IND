@@ -1,1 +1,45 @@
-let fighters=[];async function load(){try{const r=await fetch('data/fighters.json');fighters=await r.json();renderFighters();renderProfile();}catch(e){console.error(e)}}function renderFighters(){const box=document.getElementById('fighter-list');if(!box)return;const q=(document.getElementById('search')?.value||'').toLowerCase();box.innerHTML=fighters.filter(f=>f.name.toLowerCase().includes(q)).map(f=>`<a class="fighter-card" href="fighter.html?id=${encodeURIComponent(f.id)}"><h2>${f.name}</h2><p>${f.country}</p><div class="record">${f.record.wins}-${f.record.losses}-${f.record.draws}</div><p>${f.record_status}</p></a>`).join('')||'<p>No fighters found.</p>'}function renderProfile(){const box=document.getElementById('profile');if(!box||!fighters.length)return;const id=new URLSearchParams(location.search).get('id');const f=fighters.find(x=>x.id===id);if(!f)return;document.title=f.name+' | MMA Records India';box.innerHTML=`<p class="eyebrow">FIGHTER PROFILE · INDIA</p><h1>${f.name}</h1><p>${f.country}</p><div class="fighter-card"><p class="muted">PROFESSIONAL MMA RECORD</p><h2 class="record">${f.record.wins} W – ${f.record.losses} L – ${f.record.draws} D</h2><p>${f.record_status}</p><p>${f.source_note||''}</p></div><p><a href="fighters.html">← Back to fighters</a></p>`}document.addEventListener('input',e=>{if(e.target.id==='search')renderFighters()});load();
+let fighters=[];
+async function load(){
+  try{
+    const r=await fetch('data/fighters.json');
+    fighters=await r.json();
+    renderFighters();
+    renderProfile();
+  }catch(e){console.error(e)}
+}
+function renderFighters(){
+  const box=document.getElementById('fighter-list');
+  if(!box)return;
+  const q=(document.getElementById('search')?.value||'').toLowerCase();
+  box.innerHTML=fighters.filter(f=>f.name.toLowerCase().includes(q)).map(f=>`
+    <a class="fighter-card" href="fighter.html?id=${encodeURIComponent(f.id)}">
+      ${f.image ? `<img src="${f.image}" alt="${f.name}" style="width:100px;height:100px;object-fit:cover;border-radius:10px;margin-bottom:10px;">` : ''}
+      <h2>${f.name}</h2>
+      <p>${f.country}</p>
+      <div class="record">${f.record.wins}-${f.record.losses}-${f.record.draws}</div>
+      <p>${f.record_status}</p>
+    </a>`).join('')||'<p>No fighters found.</p>';
+}
+function renderProfile(){
+  const box=document.getElementById('profile');
+  if(!box||!fighters.length)return;
+  const id=new URLSearchParams(location.search).get('id');
+  const f=fighters.find(x=>x.id===id);
+  if(!f)return;
+  document.title=f.name+' | MMA Records India';
+  box.innerHTML=`
+    <p class="eyebrow">FIGHTER PROFILE · INDIA</p>
+    ${f.image ? `<img src="${f.image}" alt="${f.name}" style="width:160px;height:160px;object-fit:cover;border-radius:14px;margin:12px 0;">` : ''}
+    <h1>${f.name}</h1>
+    <p>${f.country}</p>
+    <div class="fighter-card">
+      <p class="muted">PROFESSIONAL MMA RECORD</p>
+      <h2 class="record">${f.record.wins} W – ${f.record.losses} L – ${f.record.draws} D</h2>
+      <p>${f.record_status}</p>
+      <p>${f.source_note||''}</p>
+    </div>
+    <p><a href="fighters.html">← Back to fighters</a></p>`;
+}
+document.addEventListener('input',e=>{if(e.target.id==='search')renderFighters()});
+load();
+
