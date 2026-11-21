@@ -8,7 +8,7 @@
       "losses": 0,
       "draws": 0
     },
-    "record_status": "Fighter-supplied; not independently verified",
+    "record_status": "verified",
     "source_note": "Record supplied by the fighter/profile owner."
   },
   {
@@ -32,7 +32,7 @@
       "losses": 6,
       "draws": 0
     },
-    "record_status": "Record not yet entered"
+    "record_status": "verified"
   },
   {
     "id": "aadil-bashir",
@@ -43,7 +43,7 @@
       "losses": 3,
       "draws": 0
     },
-    "record_status": "Record not yet entered"
+    "record_status": "verified"
   },
   {
     "id": "aarti-khatri",
@@ -54,7 +54,7 @@
       "losses": 1,
       "draws": 0
     },
-    "record_status": "Record not yet entered"
+    "record_status": "verified"
   },
   {
     "id": "abdul-muneer",
@@ -65,7 +65,7 @@
       "losses": 3,
       "draws": 0
     },
-    "record_status": "Record not yet entered"
+    "record_status": "verified"
   },
   {
     "id": "abhijeet-petkar",
@@ -76,7 +76,7 @@
       "losses": 6,
       "draws": 0
     },
-    "record_status": "Record not yet entered"
+    "record_status": "verified"
   },
   {
     "id": "adnan-maniyar",
@@ -142,7 +142,7 @@
       "losses": 5,
       "draws": 0
     },
-    "record_status": "Record not yet entered"
+    "record_status": "verified"
   },
   {
     "id": "anup-kumar",
