@@ -3,13 +3,13 @@
     "id": "vaibhav-hase",
     "name": "Vaibhav Hase",
     "country": "India",
-    "image": "assets/vaibhav.png",
     "record": {
       "wins": 5,
       "losses": 0,
       "draws": 0
     },
-    "record_status": "verified",
+    "record_status": "Fighter-supplied; not independently verified",
+    "source_note": "Record supplied by the fighter/profile owner."
   },
   {
     "id": "anshul-jubli",
@@ -28,55 +28,55 @@
     "name": "Puja Tomar",
     "country": "India",
     "record": {
-      "wins": 9,
-      "losses": 6,
+      "wins": 0,
+      "losses": 0,
       "draws": 0
     },
-    "record_status": "verified"
+    "record_status": "Record not yet entered"
   },
   {
     "id": "aadil-bashir",
     "name": "Aadil Bashir",
     "country": "India",
     "record": {
-      "wins": 2,
-      "losses": 3,
+      "wins": 0,
+      "losses": 0,
       "draws": 0
     },
-    "record_status": "verified"
+    "record_status": "Record not yet entered"
   },
   {
     "id": "aarti-khatri",
     "name": "Aarti Khatri",
     "country": "India",
     "record": {
-      "wins": 6,
-      "losses": 1,
+      "wins": 0,
+      "losses": 0,
       "draws": 0
     },
-    "record_status": "verified"
+    "record_status": "Record not yet entered"
   },
   {
     "id": "abdul-muneer",
     "name": "Abdul Muneer",
     "country": "India",
     "record": {
-      "wins": 6,
-      "losses": 3,
+      "wins": 0,
+      "losses": 0,
       "draws": 0
     },
-    "record_status": "verified"
+    "record_status": "Record not yet entered"
   },
   {
     "id": "abhijeet-petkar",
     "name": "Abhijeet Petkar",
     "country": "India",
     "record": {
-      "wins": 7,
-      "losses": 6,
+      "wins": 0,
+      "losses": 0,
       "draws": 0
     },
-    "record_status": "verified"
+    "record_status": "Record not yet entered"
   },
   {
     "id": "adnan-maniyar",
@@ -84,7 +84,7 @@
     "country": "India",
     "record": {
       "wins": 0,
-      "losses": 1,
+      "losses": 0,
       "draws": 0
     },
     "record_status": "Record not yet entered"
@@ -95,7 +95,7 @@
     "country": "India",
     "record": {
       "wins": 0,
-      "losses": 1,
+      "losses": 0,
       "draws": 0
     },
     "record_status": "Record not yet entered"
@@ -105,7 +105,7 @@
     "name": "Akshata Khadtare",
     "country": "India",
     "record": {
-      "wins": 1,
+      "wins": 0,
       "losses": 0,
       "draws": 0
     },
@@ -116,8 +116,8 @@
     "name": "Alam Idrisi",
     "country": "India",
     "record": {
-      "wins": 2,
-      "losses": 2,
+      "wins": 0,
+      "losses": 0,
       "draws": 0
     },
     "record_status": "Record not yet entered"
@@ -127,8 +127,8 @@
     "name": "Alan Fernandes",
     "country": "India",
     "record": {
-      "wins": 1,
-      "losses": 2,
+      "wins": 0,
+      "losses": 0,
       "draws": 0
     },
     "record_status": "Record not yet entered"
@@ -138,19 +138,19 @@
     "name": "Angad Bisht",
     "country": "India",
     "record": {
-      "wins": 11,
-      "losses": 5,
+      "wins": 0,
+      "losses": 0,
       "draws": 0
     },
-    "record_status": "verified"
+    "record_status": "Record not yet entered"
   },
   {
     "id": "anup-kumar",
     "name": "Anup Kumar",
     "country": "India",
     "record": {
-      "wins": 8,
-      "losses": 4,
+      "wins": 0,
+      "losses": 0,
       "draws": 0
     },
     "record_status": "Record not yet entered"
@@ -160,8 +160,8 @@
     "name": "Asha Roka",
     "country": "India",
     "record": {
-      "wins": 4,
-      "losses": 3,
+      "wins": 0,
+      "losses": 0,
       "draws": 0
     },
     "record_status": "Record not yet entered"
@@ -171,8 +171,8 @@
     "name": "Ashok Bagade",
     "country": "India",
     "record": {
-      "wins": 4,
-      "losses": 1,
+      "wins": 0,
+      "losses": 0,
       "draws": 0
     },
     "record_status": "Record not yet entered"
@@ -182,11 +182,10 @@
     "name": "Amitesh Chaubey",
     "country": "India",
     "record": {
-      "wins": 5,
-      "losses": 5,
+      "wins": 0,
+      "losses": 0,
       "draws": 0
     },
     "record_status": "Record not yet entered"
   }
 ]
-
